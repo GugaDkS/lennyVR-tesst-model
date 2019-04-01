@@ -1,0 +1,307 @@
+{
+    "asset": {
+        "copyright": "(C)BB",
+        "generator": "Maya2glTF V0.9.10 b7c0eed",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [
+                0.0,
+                8.487338066101075,
+                0.0
+            ],
+            "rotation": [
+                0.004477555863559246,
+                -0.057642560452222827,
+                -0.045392829924821857,
+                0.9972947239875794
+            ],
+            "scale": [
+                2.5667476654052736,
+                2.5667476654052736,
+                2.5667476654052736
+            ],
+            "name": "pCube1"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ],
+            "name": "pCubeShape1"
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 0,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 0,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 5,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                },
+                {
+                    "input": 5,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                }
+            ],
+            "name": "logoBBclip"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.989233672618866,
+                0.9958389401435852,
+                0.993314564228058
+            ],
+            "min": [
+                -0.989233672618866,
+                -0.9958389401435852,
+                -0.993314564228058
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 288,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "min": [
+                -0.5,
+                -0.5,
+                -0.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.989233672618866,
+                0.003697767620906234,
+                0.993314564228058,
+                1.0
+            ],
+            "min": [
+                -0.11537974327802658,
+                -0.0910562574863434,
+                -0.993314564228058,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 191,
+            "max": [
+                7.916666507720947
+            ],
+            "min": [
+                0.0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 191,
+            "max": [
+                0.0004089869908057153,
+                8.487338066101075,
+                0.10346997529268264
+            ],
+            "min": [
+                -0.0015658560441806913,
+                8.461506843566895,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 191,
+            "max": [
+                0.016049575060606004,
+                0.0332317091524601,
+                -0.020523972809314729,
+                0.9997140169143676
+            ],
+            "min": [
+                -0.007090031169354916,
+                -0.057642560452222827,
+                -0.056546833366155627,
+                0.9972947239875794
+            ],
+            "type": "VEC4"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            },
+            "name": "blinn1"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "LogoBB.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 7264,
+            "byteLength": 72,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5732,
+            "byteLength": 576,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3056,
+            "byteLength": 384,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6308,
+            "byteLength": 192,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6500,
+            "byteLength": 764
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3440,
+            "byteLength": 2292
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 3056
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 7336,
+            "uri": "TesteIntroScene0.bin"
+        }
+    ]
+}
